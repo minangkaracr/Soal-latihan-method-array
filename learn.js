@@ -65,6 +65,33 @@ console.log("indexOf : " +indexApel);
 // includes (mengecek apakah suatu elemen ada dalam array)
 console.log("Includes : " +buah.includes('jeruk'));
 
+// Membuat array multidimensi untuk merepresentasikan sebuah matriks
+let matrix = [
+  [1, 2, 3],
+  [4, 5, 6],
+  [7, 8, 9]
+];
+
+// Mengakses elemen
+console.log("Multidimensi : " +matrix[1][2]);
+
+let matrix2 = [
+  [1, 2],
+  [3, 4]
+];
+
+matrix2[0].push(5); // Push ke array yg pertama
+console.log(matrix2);
+
+let matrix3 = [
+  [1, 2, 3],
+  [4, 5, 6]
+];
+// Pop element
+const poppedElement = matrix3[1].pop();
+console.log(poppedElement);
+console.log(matrix3);
+
 let x = 10;
 let y = 5;
 console.log("Perbandingan -------------------------")
