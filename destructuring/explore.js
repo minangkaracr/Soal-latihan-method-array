@@ -38,3 +38,5 @@ const person = {
   console.log(car.getDetails()); // Output: Toyota Camry (2023)
   console.log(carDetails()); // Output: Toyota Camry (2023)
 
+  
+
